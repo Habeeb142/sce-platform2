@@ -255,8 +255,11 @@ handleError(error) {
                     this.contents=this.response.content
                     this.comment=this.response.comment
                    
-              } 
-               else{        
+              }} 
+               
+                
+              }) } } 
+else{        
                     this.Jarwis.getcontent(id).subscribe(data=>{
                     this.response = data;
                     console.log(this.response);
@@ -285,8 +288,7 @@ handleError(error) {
                     this.uimage='https://sabiogun.jtcheck.com/sce-ogun/backend/public/upload/uploads/'+this.res.image;
                      
                     })} 
-                
-              }));   
+));   
    
   }
   swip (show){
