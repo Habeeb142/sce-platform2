@@ -287,7 +287,7 @@ else{
                     this.images='https://sabiogun.jtcheck.com/sce-ogun/backend/public/upload/uploads/'+this.res.t_image
                     this.uimage='https://sabiogun.jtcheck.com/sce-ogun/backend/public/upload/uploads/'+this.res.image;
                      
-                    })} 
+                    })}} 
 ));   
    
   }
