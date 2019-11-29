@@ -254,11 +254,11 @@ handleError(error) {
                    
                     this.contents=this.response.content
                     this.comment=this.response.comment
-                   
+                })   
               }} 
                
                 
-              }) } } 
+              })  } 
 else{        
                     this.Jarwis.getcontent(id).subscribe(data=>{
                     this.response = data;
